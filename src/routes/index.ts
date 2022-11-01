@@ -10,4 +10,8 @@ router.get('/fishes', fishes);
 
 router.get('/search', search);
 
+// router.get((req, res)=>{
+//     res.send({error: 404});
+// })
+
 export default router;
